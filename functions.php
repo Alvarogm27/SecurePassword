@@ -85,7 +85,7 @@ return $valida;
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $contraseña = $_POST['password'];  // Obtener la contraseña ingresada
-    $esSegura = validaContraseña($contraseña);  // Llamar a tu función de validación
+    $esSegura = validaContraseña($contraseña);  // Llamar a la función de validación
 
     // Mostrar un mensaje basado en el resultado
     if ($esSegura) {
